@@ -32,11 +32,6 @@ class SetConfigs:
 	__api_id = config['pyrogram']['api_id']
 	__api_hash = config['pyrogram']['api_hash']
 
-	__acrcloud_config = {
-		"key": __acrcloud_key,
-		"secret": __acrcloud_secret,
-		"host": __acrcloud_host
-	}
 
 	@classmethod
 	def __init__(cls, mode_bot):
